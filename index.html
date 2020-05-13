@@ -452,8 +452,9 @@
 						Eusian Nami Anjeun
 					</div>
 					<div class="mycontent">
-						.<br><br>
-						Nama kamu :
+						<a class="link" href="https://wa.me/6287837953204" target="_blank" rel="nofollow">Chat Orang Ganteng</a>
+.<br><br>
+						Nama kamu:
 						<input class="mytext" type="text" id="mynama" name="nama">
 					</div>
 					<div class="mybutton">
@@ -870,8 +871,16 @@
 				tanggal=(dayName+', '+d.getDate()+' '+monthName);
 				$('.tanggal').text(tanggal);
 			}
-			function 
-<a class="link" href="https://wa.me/6287837953204" target="_blank" rel="nofollow">Chat orang ganteng</a>
+			function wpblur(){
+				$('.container').toggleClass("myoverlay");
+				localStorage.setItem("blur", blur);
+				if(blur=="true"){
+					blur="false";
+				}
+				else{
+					blur="true";
+				}
+}
 
 			function playAudio() { 
 				var x = document.getElementById("myAudio"); 
